@@ -282,7 +282,9 @@
     
 @media (min-width: 375px)and (max-width: 500px) {
 
-
+    body {
+        overflow-X: hidden;
+    }
 
     .navs button {
         width: 100%;
