@@ -4,15 +4,14 @@
   padding: 0;
   margin: 0;
   font-family: "Do Hyeon", sans-serif;
-
 }
 
 body {
   font-family: "Do Hyeon", sans-serif;
-  max-width: 100vw;
+  width: 100%;
   grid-template-rows: 10vh auto auto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100vw;
   grid-template-areas: "nav"
   "main"
   "footer";
@@ -140,6 +139,10 @@ main {
   gap: 10px;
 }
 
+.hsText h1 {
+  color: #FF851B;
+}
+
 .hsText h1, .hsText h2, .hsText h3{
   width: 100%;
 }
@@ -233,6 +236,10 @@ main {
   cursor: pointer;
   transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+
+  .boText h1 {
+    color: #FF851B;
+  }
 
   .boText h1, .boText h2, .boText h3{
   width: 90%;

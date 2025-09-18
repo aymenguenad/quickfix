@@ -1,5 +1,5 @@
 
-@media (min-width: 800px) and (max-width: 1350px) {
+@media (min-width: 900px) and (max-width: 1440px) {
     
     .homePage, .repair {
         width: 80%;
@@ -114,13 +114,10 @@
         max-width: 65%;
     }
 
-    body {
-        background-color: rgb(180, 180, 180);
-    }
 }
 
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     
     .homePage, .repair {
         width: 90%;
@@ -248,464 +245,153 @@
         max-width: 75%;
     }
 
-
-    body {
-        background-color: rgb(255, 212, 160);
-    }
 }
 
-
-@media (min-width: 500px) and (max-width: 600px) {
     
+@media (max-width: 767px) {
+
+    .navs button {
+        width: 100%;
+        font-size: 1.6vw;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
     .homePage, .repair {
-        width: 95%;
+        width: 100%;
     }
 
-    .heroSection, .bestOffers, .usedVerifiedSection, .location {
-        max-width: 800px;
-        height: 25vh;
+    .heroSection, .usedVerifiedSection{
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+        margin: 50px 0px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(207, 207, 207);
     }
 
-    .hsText {
-        font-size: 10px;
-        gap: 5px;
-        padding: 25px;
-    }
-
-    .hsText h1, .hsText h2, .hsText h3{
-    width: 90%;
+    .hsText, .uvText {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        height: 100%;
     }
 
     .hsText button {
-        height: 30%;
-        font-size: 15px;
-    }
-
-    #hsImg {
-        left: 0vw;
-        width: 240px;
-        height: 240px;
-    }
-
-    .boText {
-        font-size: 10px;
-        gap: 10px;
-        padding: 0px;
-    }
-    .boText button {
         height: 20%;
-        font-size: 15px;
+        width: 70%;
     }
 
-    #boImg {
-        width: 240px;
-        height: 240px;
-    }
-
-    .uvText {
-        font-size: 10px;
-        gap: 5px;
-        padding: 20px;
-    }
-
-    .uvText button {
-        height: 25%;
-        font-size: 15px;
-        width: 100%;
-    }
-
-    #uvImg {
-        width: 300px;
-        height: 300px;
-    }
-
-    .FAQTxt{
-        max-width: 760px ;
-        font-size: 30px;
-    }
-
-    .FAQ {
-        max-width: 760px ;
-    }
-
-    .qnda, .answer {
-        font-size: 10px;
-    }
-
-    .location {
-        height: 400px;
-    }
-
-    .infos {
-        width: 200px;
-        padding: 10px;
-        font-size: 12px;
-    }
-
-    .map {
-        width: 350px;
-    }
-
-    .leaflet-container{
-    height: 400px;
-    width: 350px;
-    }
-
-    .rpHeroSection {
-        width: 100%;
-        height: 50vh;
-    }
-
-    .rpText {
-        width: 50%;
-        padding: 0px 20px;
-        height: 100%;
-        border-radius: 0px;
-    }
-
-    .rpText h1 {
-        font-size: 40px;
-    }
-
-    .rpButtons button {
-        font-size: 1.7vw;
-        width: 300px;
-        height: 40px;
-        border-radius: 15px;
-    }
-
-    .wcuText {
-        font-size: 15px;
-    }
-    .wcuText h1 {
-        font-size: 30px;
-    }
-
-    .testimonials {
-        flex-direction: column;
-        height: 60vh;
-        border: 1px red solid;
-    }
-
-    .tText h1{
-        font-size: 40px;
-    }
-
-    .tText {
-        font-size: 15px;
-        margin: 30px 0px;
-    }
-
-    .card {
-        max-width: 100%;
-    }
-
-    body {
-        background-color: aquamarine;
-    }
-}
-
-@media (min-width: 400px) and (max-width: 500px) {
-
-    .body {
-        overflow-X: hidden;
+    .hsImgBox, .uvImgBox  {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.5;
     }
     
-    .homePage, .location, .repair{
-        width: 95%;
+        #hsImg {
+            width: 80%;
+        }
+
+
+    .bestOffers {
+        width: 100%;
+        height: auto;
+        margin: 50px 0px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(242, 242, 242, 0.8);
+        border: 1px solid rgb(207, 207, 207);
+        padding: 10px 0px ;
     }
 
-    .heroSection, .bestOffers, .usedVerifiedSection {
-        max-width: 800px;
-        height: 20vh;
-    }
-
-    .hsText {
-        font-size: 8px;
-        gap: 2px;
-        padding: 15px;
-    }
-
-    .hsText h1, .hsText h2, .hsText h3{
-    width: 90%;
-    }
-
-    .hsText button {
-        height: 30%;
-        font-size: 10px;
-    }
-
-    #hsImg {
-        left: 0vw;
-        width: 200px;
-        height: 200px;
-    }
-
-    .boText {
-        font-size: 8px;
-        gap: 2px;
-        padding: 0px;
-    }
-    .boText button {
-        height: 20%;
-        font-size: 10px;
+    .boImgBox {
+        height: 100%;
     }
 
     #boImg {
-        width: 200px;
-        height: 200px;
+        width: 50%;
     }
 
+    .boText {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
     .uvText {
-        font-size: 7px;
-        gap: 5px;
-        padding: 20px;
+        font-size: 16px;
+        padding: 20px 0px ;
+    }
+
+    .uvText h1 {
+        font-size: 49px;
+        color: #fd9539;
     }
 
     .uvText button {
-        height: 25%;
-        font-size: 10px;
+        width: 90%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .uvText h1, .uvText h2 {
         width: 90%;
     }
 
     #uvImg {
-        width: 200px;
-        height: 200px;
+        width: 105%;
+        height: auto;
     }
-    .FAQTxt{
-        max-width: 760px ;
+
+    .FAQTxt {
         font-size: 30px;
+        text-align: center;
     }
 
-    .FAQ {
-        max-width: 760px ;
-        height: 75vh;
-    }
-    .qnda {
-        height: 40px;
-    }
     .qnda, .answer {
-        font-size: 8px;
+        font-size: 12px;
     }
 
-    .location {
-        height: 600px;
+    footer {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        padding: 20px  0px;
     }
 
-    .infos {
-        width: 200px;
-        padding: 10px;
-        font-size: 12px;
-    }
-
-    .map {
-        width: 450px;
-    }
-
-    .leaflet-container{
-    height: 300px;
-    width: 450px;
-    }
-
-    .rpHeroSection {
-        width: 100%;
-        height: 50vh;
-    }
-
-    .rpText {
-        font-size: 13px;
-        width: 50%;
-        padding: 0px 20px;
-        height: 100%;
-        border-radius: 0px;
-    }
-
-    .rpText h1{
-        font-size: 30px;
-    }
-
-    .rpButtons button {
-        font-size: 2vw;
-        width: 300px;
-        height: 40px;
-        border-radius: 15px;
-    }
-
-    .wcuText {
-        font-size: 12px;
-    }
-    .wcuText h1 {
-        font-size: 25px;
-    }
-
-    .testimonials {
+    footer div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-    }
-
-    .tText h1{
-        font-size: 22px;
-    }
-
-    .tText {
-        font-size: 12px;
-    }
-
-    .card {
-        max-width: 100%;
-    }
-
-}
-
-@media (min-width: 300px) and (max-width: 400px) {
-    
-    .homePage, .location, .repair {
         width: 100%;
+
     }
 
-    .heroSection, .bestOffers, .usedVerifiedSection{
-        max-width: 1000px;
-        height: 20vh;
+    footer div h1 {
+        font-size: 50px;
+        text-align: center;
     }
 
-    .hsText {
-        font-size: 7px;
-        gap: 2px;
-        padding: 10px;
-    }
-
-    .hsText h1, .hsText h2, .hsText h3{
-    width: 100%;
-    }
-
-    .hsText button {
-        height: 20%;
-        width: 80%;
-        font-size: 10px;
-    }
-
-    #hsImg {
-        left: 0vw;
-        width: 150px;
-        height: 150px;
-    }
-
-    .boText {
-        font-size: 7px;
-        gap: 2px;
-        padding: 0px;
-    }
-    .boText button {
-        height: 18%;
-        font-size: 10px;
-        width: 80%;
-    }
-
-    #boImg {
-        width: 150px;
-        height: 150px;
-    }
-
-    .uvText {
-        font-size: 6px;
-        gap: 5px;
-        padding: 10px;
-    }
-
-    .uvText button {
-        height: 25%;
-        font-size: 10px;
-        width: 90%;
-    }
-
-    #uvImg {
-        width: 150px;
-        height: 150px;
-    }
-
-    .FAQTxt{
-        max-width: 760px ;
+    footer h2 {
         font-size: 20px;
-    }
-
-    .FAQ {
-        max-width: 760px ;
-        height: 60vh;
-    }
-    .qnda {
-        height: 30px;
-    }
-    .qnda, .answer {
-        font-size: 6px;
-    }
-
-    .location {
-        height: 600px;
-        flex-direction: column;
-    }
-
-    .infos {
-        width: 200px;
-        padding: 10px;
-        font-size: 12px;
-    }
-
-    .map {
-        width: 400px;
-    }
-
-    .leaflet-container{
-    height: 300px;
-    width: 400px;
-    }
-
-    .rpHeroSection {
-        width: 100%;
-        height: 50vh;
-    }
-
-    .rpText {
-        font-size: 10px;
-        width: 50%;
-        padding: 0px 20px;
-        height: 100%;
-        border-radius: 0px;
-    }
-
-    .rpText h1{
-        font-size: 20px;
-    }
-
-    .rpButtons button {
-        font-size: 2.5vw;
-        width: 300px;
-        height: 30px;
-        border-radius: 10px;
-    }
-
-    .wcuText {
-        font-size: 10px;
-    }
-    .wcuText h1 {
-        font-size: 18px;
-    }
-
-    .testimonials {
-        flex-direction: column;
-        height: 72vh;
-        border: 1px red solid;
-    }
-
-    .tText h1{
-        font-size: 22px;
-    }
-
-    .tText {
-        font-size: 12px;
-        margin: 30px 0px;
-    }
-
-    .card {
-        max-width: 100%;
+        text-align: center;
     }
 }

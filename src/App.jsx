@@ -25,14 +25,14 @@ function App() {
         </main>
         <footer>  
           <div>
-            <h1 style={{fontSize: '100px', color: ' #FF851B'}}>Quick Fix</h1>
-            <h2 style={{fontSize: '20px'}}>Fast, reliable, and affordable phone & electronic repairs.</h2>
-            <h2 style={{fontSize: '20px'}}>⚡ Trusted repairs | ✅ Quality guaranteed | 🌍 Eco-friendly solutions</h2>
+            <h1 style={{color: ' #FF851B'}}>Quick Fix</h1>
+            <h2 >Fast, reliable, and affordable phone & electronic repairs.</h2>
+            <h2 >⚡ Trusted repairs | ✅ Quality guaranteed | 🌍 Eco-friendly solutions</h2>
           </div>
           <div>
-            <h2 style={{fontSize: '30px'}}>Address: 123 Tech Street, London, UK 📍  </h2>
-            <h2 style={{fontSize: '30px'}}>Phone: +44 20 7946 0123 📞  </h2>
-            <h2 style={{fontSize: '30px'}}>Email: support@quickfixrepair.com ✉️  </h2>
+            <h2 >Address: 123 Tech Street, London, UK 📍  </h2>
+            <h2 >Phone: +44 20 7946 0123 📞  </h2>
+            <h2 >Email: support@quickfixrepair.com ✉️  </h2>
           </div>
         </footer>
       </BrowserRouter>
