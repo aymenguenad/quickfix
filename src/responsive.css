@@ -135,6 +135,11 @@
 
 @media (min-width: 501px) and (max-width: 769px) {
     
+    body {
+        overflow-X: hidden;
+        background-color: blue;
+    }
+
     .homePage, .repair {
         width: 90%;
     }
