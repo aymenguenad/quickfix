@@ -16,10 +16,10 @@ function App() {
         </nav>
         <main>
           <Routes>
-            <Route path='/quickfix/' element={<HomePage/>} />
-            <Route path='/quickfix/repair' element={<Repair/>} />
-            <Route path='/quickfix/location' element={<FindOurLocation/>} />
-            <Route path='/quickfix/*' element={<NotFound/>} />
+            <Route path='/' element={<HomePage/>} />
+            <Route path='/repair' element={<Repair/>} />
+            <Route path='/location' element={<FindOurLocation/>} />
+            <Route path='/*' element={<NotFound/>} />
 
           </Routes>
         </main>
