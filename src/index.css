@@ -81,14 +81,14 @@ nav {
 
 main {
   grid-area: main;
-  width: 99%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: auto;
-
+  overflow-x: hidden;
 }
 
 .homePage, .repair {
