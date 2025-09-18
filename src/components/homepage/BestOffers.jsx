@@ -5,7 +5,7 @@ export default function BestOffers () {
 
     const handleClick = () => {
         window.scrollTo({top: 0, behavior: 'smooth'})
-        navigate('/location')
+        navigate('/quickfix/location')
     }
     return (
         <div className="bestOffers">

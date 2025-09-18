@@ -20,7 +20,7 @@ export default function HeroSection(){
                 <h2>You can either: </h2>
                 <div className='rpButtons'>
                     <button onClick={handleScrollBooking}>Schedule a Repair</button>
-                    <button onClick={()=>{navigate('/location')}} >Visit Us During Working Hours</button>
+                    <button onClick={()=>{navigate('/quickfix/location')}} >Visit Us During Working Hours</button>
                 </div>
             </div>
             <img id='rphsImg' src={expert} alt="expert" />

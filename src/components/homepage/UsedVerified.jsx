@@ -5,7 +5,7 @@ export default function UsedVerified () {
 
     const handleClick = () => {
         window.scrollTo({top: 1650, behavior: 'smooth'})
-        navigate('/repair')
+        navigate('/quickfix/repair')
     }
     return (
         <div className="usedVerifiedSection">
@@ -16,7 +16,7 @@ export default function UsedVerified () {
 
             </div>
             <div className="uvImgBox">
-                <img id='uvImg' src={xbox} alt="" />
+                <img id='uvImg' src={xbox} alt="usedVerified" />
             </div>
         </div>
     )
