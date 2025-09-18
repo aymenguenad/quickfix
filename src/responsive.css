@@ -133,12 +133,26 @@
 }
 
 
-@media (min-width: 501px) and (max-width: 769px) {
+@media (min-width: 601px) and (max-width: 769px) {
     
     body {
         overflow-X: hidden;
         background-color: blue;
     }
+
+    .navs {
+        width: 50%;
+        gap: 1.4vw;
+    }
+    .navs button {
+        width: 100%;
+        font-size: 2.7vw;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
 
     .homePage, .repair {
         width: 90%;
