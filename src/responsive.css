@@ -1,5 +1,5 @@
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1440px) {
     
     .homePage, .repair {
         width: 80%;
@@ -8,6 +8,22 @@
     .heroSection, .bestOffers, .usedVerifiedSection, .location {
         max-width: 800px;
         height: 30vh;
+    }
+
+    .heroSection, .usedVerifiedSection {
+        background: linear-gradient(
+        to right,           
+        rgb(229, 229, 229) 20%,
+        rgba(0,0,0,0)   70%
+        );
+    }
+
+    .bestOffers {
+        background: linear-gradient(
+        to right,           
+        rgba(0,0,0,0)   30%,
+        rgb(229, 229, 229) 70%
+        );
     }
 
     .hsText {
@@ -117,7 +133,7 @@
 }
 
 
-@media (min-width: 904px) and (max-width: 1024px) {
+@media (min-width: 391px) and (max-width: 769px) {
     
     .homePage, .repair {
         width: 90%;
@@ -126,6 +142,22 @@
     .heroSection, .bestOffers, .usedVerifiedSection, .location {
         max-width: 750px;
         height: 25vh;
+    }
+
+    .heroSection, .usedVerifiedSection {
+        background: linear-gradient(
+        to right,           
+        rgb(229, 229, 229) 20%,
+        rgba(0,0,0,0)   70%
+        );
+    }
+
+    .bestOffers {
+        background: linear-gradient(
+        to right,           
+        rgba(0,0,0,0)   30%,
+        rgb(229, 229, 229) 70%
+        );
     }
 
     .hsText {
@@ -248,7 +280,7 @@
 }
 
     
-@media (max-width: 390px) and (max-width: 904px) {
+@media (max-width: 390px) {
 
     .navs button {
         width: 100%;
@@ -394,4 +426,5 @@
         font-size: 20px;
         text-align: center;
     }
+
 }
