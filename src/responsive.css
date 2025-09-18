@@ -284,6 +284,7 @@
 
     body {
         overflow-X: hidden;
+        background-color: red;
     }
 
     .navs button {
@@ -414,6 +415,7 @@
         align-items: center;
         flex-direction: column;
         padding: 20px  0px;
+        color: red;
     }
 
     footer div {
