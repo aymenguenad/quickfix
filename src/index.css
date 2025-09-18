@@ -4,12 +4,11 @@
   padding: 0;
   margin: 0;
   font-family: "Do Hyeon", sans-serif;
-    overflow-x: hidden;
 }
 
 body {
   font-family: "Do Hyeon", sans-serif;
-  width: 100%;
+  width: 100vw;
   grid-template-rows: 10vh auto auto;
   display: grid;
   grid-template-columns: 100vw;
