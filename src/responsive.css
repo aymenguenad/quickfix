@@ -286,9 +286,13 @@
         overflow-X: hidden;
     }
 
+    .navs {
+        width: 50%;
+        gap: 1.4vw;
+    }
     .navs button {
         width: 100%;
-        font-size: 1.6vw;
+        font-size: 2.7vw;
     }
 
     #logo {
