@@ -355,6 +355,7 @@
 
     #boImg {
         width: 50%;
+        overflow-x: hidden;
     }
 
     .boText {
@@ -389,8 +390,11 @@
     }
 
     #uvImg {
+        position: relative;
+        left: -5%;
         width: 105%;
         height: auto;
+        overflow-x: hidden;
     }
 
     .FAQTxt {
