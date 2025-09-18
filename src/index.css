@@ -88,8 +88,7 @@ main {
   justify-content: center;
   align-items: center;
   height: auto;
-  overflow-x: hidden;
-  border: 1px red solid;
+
 }
 
 .homePage, .repair {

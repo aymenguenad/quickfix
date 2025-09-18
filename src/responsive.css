@@ -284,7 +284,6 @@
 
     body {
         overflow-X: hidden;
-        background-color: red;
     }
 
     .navs button {
@@ -415,7 +414,6 @@
         align-items: center;
         flex-direction: column;
         padding: 20px  0px;
-        color: red;
     }
 
     footer div {
@@ -428,12 +426,12 @@
     }
 
     footer div h1 {
-        font-size: 50px;
+        font-size: 10vw;
         text-align: center;
     }
 
     footer h2 {
-        font-size: 20px;
+        font-size: 3vw;
         text-align: center;
     }
 
