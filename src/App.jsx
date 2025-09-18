@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import Repair from './pages/Repair'
 import FindOurLocation from './pages/FindOurLocation'
+import NotFound from './components/NotFound'
 
 function App() {
   console.log(window.innerWidth)
@@ -18,6 +19,8 @@ function App() {
             <Route path='/' element={<HomePage/>} />
             <Route path='/repair' element={<Repair/>} />
             <Route path='/location' element={<FindOurLocation/>} />
+            <Route path='/*' element={<NotFound/>} />
+
           </Routes>
         </main>
         <footer>  
