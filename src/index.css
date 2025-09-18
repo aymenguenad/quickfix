@@ -316,6 +316,7 @@ main {
 
 .FAQBox {
   max-width: 960px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,7 +335,7 @@ main {
 .FAQ {
   margin: 10px 0px;
   max-width: 960px;
-  height: 80vh;
+  height: auto;
   border-radius: 20px;
   padding: 20px;
   background-color: #e4e4e4;

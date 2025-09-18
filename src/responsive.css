@@ -1,5 +1,5 @@
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
     
     .homePage, .repair {
         width: 80%;
@@ -117,7 +117,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 904px) and (max-width: 1024px) {
     
     .homePage, .repair {
         width: 90%;
@@ -248,7 +248,7 @@
 }
 
     
-@media (max-width: 844px) {
+@media (max-width: 390px) and (max-width: 904px) {
 
     .navs button {
         width: 100%;
