@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import Repair from './pages/Repair'
 import FindOurLocation from './pages/FindOurLocation'
-import NotFound from './components/NotFound'
 
 function App() {
   console.log(window.innerWidth)
