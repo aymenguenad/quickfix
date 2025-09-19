@@ -18,13 +18,13 @@ export default function BookNow () {
     }
 
     return (
-        <>
-        <div style={{top: confPopUp ? '0%' : '-10%'}} className='popUp'>
-            <p>Consultation Booked √</p>
-        </div>
+        <div className='bookingSection'>
+            <div style={{top: confPopUp ? '0%' : '-10%'}} className='popUp'>
+                <p>Consultation Booked √</p>
+            </div>
 
-        <img id='deco2' src={randomTwo} alt="deco" />
-        <form id='booking' className='bookNow' action="">
+            <img id='deco2' src={randomTwo} alt="deco" />
+            <form id='booking' className='bookNow' action="">
             <h1>Book Now!</h1>
             <label htmlFor="">Full Name:</label>
             <input type="text" placeholder='Ex. John Doe'/>
@@ -40,7 +40,7 @@ export default function BookNow () {
 
             <button type='button' onClick={handleBooking} >Book Now</button>
             <p>Note: Few moments after booking your consultation, you'll receive an email with more details.</p>
-        </form>
-        </>
+            </form>
+        </div>
     )
 }

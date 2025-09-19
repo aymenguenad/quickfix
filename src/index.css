@@ -609,7 +609,8 @@ main {
 } 
 
 .card {
-  max-width: 60%;
+  max-width: 70%;
+  padding: 20px;
   height: 90%;
   background-color: #eeeeee;
   transition: all 0.2 ease-in-out;
@@ -642,14 +643,22 @@ main {
 
 
 #deco2 {
-  top: 196%;
-  left: -40%;
-  width: 3000px;
-  height: 500px;
-  position: absolute;
-  object-fit:fill;
-  z-index: -1;
+    position: absolute;
+    top: 5%;              /* tu ajustes comme tu veux */
+    left: -60%;
+    width: 250%;  
+    height: 100%;         /* suit la largeur du parent */
+    object-fit: cover;
 }
+.bookingSection {
+  position: relative;   /* nécessaire pour contenir l’absolute */
+  overflow: hidden;     /* masque ce qui dépasse */
+  width: 100vw;
+  height: auto;   
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  }
 
 .bookNow {
   gap: 20px;
