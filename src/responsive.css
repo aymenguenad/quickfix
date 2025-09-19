@@ -433,6 +433,7 @@
 
     .whyChooseUs {
         flex-direction: column;
+        width: 96%;
         padding: 10px;
         height: auto;
         text-align: center;
@@ -451,11 +452,19 @@
         height: auto;
     }
 
+    .rpText {
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 30px;
+        width: 90%;
+    }
+
     .tText {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 95%;
     }
 
     .card {
@@ -496,6 +505,7 @@
 
     .bookNow {
         width: 90%;
+        height: 100vh;
         background-color: rgba(242, 242, 242, 0.7) ;
     }
 
