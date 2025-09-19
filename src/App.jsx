@@ -19,7 +19,7 @@ function App() {
             <Route path='/' element={<HomePage/>} />
             <Route path='/repair' element={<Repair/>} />
             <Route path='/location' element={<FindOurLocation/>} />
-            <Route path='/*' element={<NotFound/>} />
+            <Route path='*' element={<NotFound/>} />
 
           </Routes>
         </main>
