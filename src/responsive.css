@@ -402,7 +402,7 @@
     }
 
     .rpHeroSection {
-        width: 95%;
+        width: 100vw;
         height: 50vh;
         margin: 50px 0px;
     }
@@ -456,11 +456,10 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        border: 1px solid red;
     }
 
     .card {
-        max-width: 90%;
+        max-width: 70%;
         margin: 50px 0px;
     }
 
