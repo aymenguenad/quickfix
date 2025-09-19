@@ -267,7 +267,6 @@
 
     .repair {
         width: 100%;
-        border: 1px solid red;
     }
 
     .heroSection, .usedVerifiedSection{
@@ -404,7 +403,7 @@
     .rpHeroSection {
         width: 100vw;
         height: 50vh;
-        margin: 50px 0px;
+        margin: 0px 0px;
     }
 
     .rpText {
@@ -429,6 +428,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .rpButtons button {
+        color: #fd9539;
     }
 
     .whyChooseUs {
