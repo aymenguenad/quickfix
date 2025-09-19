@@ -7,12 +7,12 @@ export default function Navbar () {
     const navigate = useNavigate()
     return (
         <>
-            <div onClick={()=>{navigate('/quickfix/')}} className='logoContainer'>
+            <div onClick={()=>{navigate('/')}} className='logoContainer'>
                 <img id='logo' src={logo} alt="logo" />
             </div>
             <div className='navs'>
-                <button style={{backgroundColor: location== '/quickfix/repair' &&' #FF851B', color: location== '/quickfix/repair' && 'white'}} onClick={()=>{navigate('/quickfix/repair')}}>Repair</button>
-                <button style={{backgroundColor: location== '/quickfix/location' &&' #FF851B', color: location== '/quickfix/location' && 'white'}} onClick={()=>{navigate('/quickfix/location')}} >Find our location</button>
+                <button style={{backgroundColor: location== '/repair' &&' #FF851B', color: location== '/repair' && 'white'}} onClick={()=>{navigate('/repair')}}>Repair</button>
+                <button style={{backgroundColor: location== '/location' &&' #FF851B', color: location== '/location' && 'white'}} onClick={()=>{navigate('/location')}} >Find our location</button>
             </div>
         </>
     )

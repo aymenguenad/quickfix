@@ -5,7 +5,7 @@ export default function UsedVerified () {
 
     const handleClick = () => {
         window.scrollTo({top: 1650, behavior: 'smooth'})
-        navigate('/quickfix/repair')
+        navigate('/repair')
     }
     return (
         <div className="usedVerifiedSection">

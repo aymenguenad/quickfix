@@ -9,7 +9,7 @@ export default function HeroSection () {
                 <h3>Broken phone, laptop, or console? </h3>
                 <h1>Get it fixed today — fast, reliable, and affordable.</h1>
                 <h2>Book your free diagnosis now!</h2>
-                <button onClick={()=>{navigate('/quickfix/location')}} >Get Free Diagnosis</button>
+                <button onClick={()=>{navigate('/location')}} >Get Free Diagnosis</button>
             </div>
             <div className="hsImgBox">
                 <img id='hsImg' src={phone} alt="phone" />
