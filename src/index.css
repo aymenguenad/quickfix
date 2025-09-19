@@ -46,12 +46,12 @@ nav {
   background-color: transparent;
   color: #FF851B;
   border: 1px solid #FF851B;
-  padding: 10px;
+  padding: 5px;
   border-radius: 8px;
-  font-size: 0.8vw;
+  font-size: 1.5vw;
   transform: scale(1);
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  width: 30%;
+  width: 40%;
 }
 
 .navs button:hover{
@@ -121,7 +121,6 @@ main {
   max-width: 1000px;
   height: 50vh;
   border-radius: 20px;
-  background-color: #e4e4e4;
   display: grid;
   grid-template-columns: 1.1fr 0.9fr ;
   grid-template-rows: 100% ;
@@ -192,7 +191,6 @@ main {
   max-width: 1000px;
   height: 50vh;
   border-radius: 20px;
-  background-color: #e4e4e4;
   display: grid;
   grid-template-columns: 0.9fr 1.1fr ;
   grid-template-rows: 100% ;
@@ -314,6 +312,22 @@ main {
   object-fit: contain;
 }
 
+
+.heroSection, .usedVerifiedSection {
+    background: linear-gradient(
+    to right,           
+    rgb(229, 229, 229) 20%,
+    rgba(0,0,0,0)   70%
+    );
+}
+
+.bestOffers {
+    background: linear-gradient(
+    to right,           
+    rgba(0,0,0,0)   30%,
+    rgb(229, 229, 229) 70%
+    );
+}
 /* ---------------------------FAQ---------------------- */
 
 .FAQBox {
@@ -715,8 +729,8 @@ footer {
   justify-content: space-around;
   align-items: center;
   color: white;
-  gap: 60px;
-  padding: 20px;
+  gap: 10px;
+  overflow-x: hidden;
 }
 
 .notFound {
@@ -729,7 +743,7 @@ footer {
 }
 
 .notFound h1 {
-  font-size: 150px;
+  font-size: 20vw;
 }
 
 footer div {
@@ -737,6 +751,8 @@ footer div {
   justify-content: center;
   align-items: baseline;
   flex-direction: column;
+  width: 40%;
+  font-size: 1vw;
 }
 
 .leaflet-container{
